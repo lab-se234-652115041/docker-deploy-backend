@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  frontend:
+    image: matchima/234-deploylab-backend:latest
+    ports:
+      - "8085:80"
